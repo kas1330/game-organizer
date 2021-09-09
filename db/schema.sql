@@ -6,7 +6,7 @@ CREATE TABLE Games (
     gameName VARCHAR(255) COLLATE UTF8_UNICODE_CI NOT NULL,
     console VARCHAR(255) COLLATE UTF8_UNICODE_CI NOT NULL,
     yearPublished INT(11) NOT NULL,
-    paid INT(11) NOT NULL
-    PRIMARY KEY (id),
+    paid INT(11) NOT NULL,
+    PRIMARY KEY (id)
     -- UNIQUE KEY email (email)
 );
